@@ -1,0 +1,13 @@
+[project]
+name = "tempstick-mcp"
+version = "0.1.0"
+description = "Temp Stick MCP server by OpenPandora — let your AI assistant check your freezer and temperature sensors."
+readme = "README.md"
+keywords = ["tempstick", "temp-stick", "mcp", "mcp-server", "model-context-protocol", "temperature-sensor", "freezer-monitor", "restaurant", "openpandora", "ideal-sciences"]
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.urls]
+Homepage = "https://openpandora.tech"
+Repository = "https://github.com/obseard223/tempstick-mcp"
