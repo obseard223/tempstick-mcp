@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "tempstick-mcp"
 version = "0.1.0"
@@ -5,9 +9,15 @@ description = "Temp Stick MCP server by OpenPandora — let your AI assistant ch
 readme = "README.md"
 keywords = ["tempstick", "temp-stick", "mcp", "mcp-server", "model-context-protocol", "temperature-sensor", "freezer-monitor", "restaurant", "openpandora", "ideal-sciences"]
 requires-python = ">=3.9"
-license = { text = "MIT" }
+license = "MIT"
 dependencies = []
 
 [project.urls]
 Homepage = "https://openpandora.tech"
 Repository = "https://github.com/obseard223/tempstick-mcp"
+
+[project.scripts]
+tempstick-mcp = "server:main"
+
+[tool.setuptools]
+py-modules = ["server", "tempstick_api"]
