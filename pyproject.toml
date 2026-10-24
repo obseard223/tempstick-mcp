@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tempstick-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "Temp Stick MCP server by OpenPandora — let your AI assistant check your freezer and temperature sensors."
 readme = "README.md"
 keywords = ["tempstick", "temp-stick", "mcp", "mcp-server", "model-context-protocol", "temperature-sensor", "freezer-monitor", "restaurant", "openpandora", "ideal-sciences"]

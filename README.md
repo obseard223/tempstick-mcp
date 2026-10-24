@@ -1,5 +1,7 @@
 # tempstick-mcp
 
+mcp-name: io.github.obseard223/tempstick-mcp
+
 **Temp Stick MCP server by OpenPandora — let your AI assistant check your
 freezer and temperature sensors.**
 
